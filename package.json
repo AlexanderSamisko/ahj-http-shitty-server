@@ -164,7 +164,7 @@
   },
   "scripts": {
     "prestart": "npm install",
-    "start": "forever -w server.js",
+    "start": "forever server.js",
     "build": "webpack --mode production",
     "lint": "eslint . --fix",
     "test": "jest --passWithNoTests"
